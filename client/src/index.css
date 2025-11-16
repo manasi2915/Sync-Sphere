@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gradient-to-br from-pastel-blue to-pastel-purple min-h-screen font-sans;
+}
+
+
+
+.card { @apply bg-white/70 rounded-2xl p-6 shadow-sm; }
+.small-muted { @apply text-sm text-gray-600; }
